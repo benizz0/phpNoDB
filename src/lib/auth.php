@@ -13,9 +13,9 @@ include 'TOTP.php';
 use OTPHP\TOTP;
 
 
-$basekey = "WZtTHIeoQVX22d6+sG8JpoocfLxFDm+dBCLOJ4G0OqrLyLGSLxgLwjoHfpN7cTw+zcTBwEuQX/5isQLFQhLFN8r4lo1ATW0/hWRr0D4rsQyYBNqugGYfJEo5AjDx22Q9II0JPpEHi7ymUbzhNmNoSRL6J4Qufl8Hc4t5fbG9KKJgQUUWd27xDCSstctHMLFGEYuKcMFUKX+GwYMfcrRuCecxMxJCcBPxOkM//ektTWXilzBewLNF7XE0EA1pK1HIHeAP/ExnS+TqA/1mmKxN6EtAf+4fTnFcvOqMhYS8avHl60x0g44XPeGZkb1Yur8MxW4f5Jylb/ljR/ylmpLkTA=="; //base 64 256 byte
+$basekey = ""; //base 64 256 byte
 
-$password = '$2y$10$QzWEu6Cv.cNi1D/r.i/oq.v081hwIWpbOqVFJHFwlqUtdoKZSWTtW'; //password_hash("pass", PASSWORD_BCRYPT)
+$password = ''; //password_hash("pass", PASSWORD_BCRYPT)
 $time = 43200; //session time
 
 $totp = new TOTP(
