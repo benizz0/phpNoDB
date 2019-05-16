@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbenizz0%2FphpNoDB.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbenizz0%2FphpNoDB?ref=badge_shield)
+
 # phpNoDB
 Simple php authentification without database and temp files
 it's based with 1 password, no username.
