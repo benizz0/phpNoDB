@@ -1,6 +1,8 @@
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbenizz0%2FphpNoDB.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbenizz0%2FphpNoDB?ref=badge_shield)
 
 # phpNoDB
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbenizz0%2FphpNoDB.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbenizz0%2FphpNoDB?ref=badge_shield)
+
 Simple php authentification without database and temp files
 it's based with 1 password, no username.
 
@@ -45,3 +47,7 @@ $time = <session time in seconde>; //session time
  - one password
  - session time not always correct
  - all user have same cookie if he connect on the same session period
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbenizz0%2FphpNoDB.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbenizz0%2FphpNoDB?ref=badge_large)
